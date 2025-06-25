@@ -1,3 +1,30 @@
+# 🍲 OpenAI Recipe Blog Generator
+
+This project uses the OpenAI API and Python to generate blog-style recipe posts based on a user’s dietary preferences, favorite cuisines, and ingredients on hand.
+
+## 🧠 Objective
+
+Use prompt engineering and the OpenAI Chat API to automate content creation for food bloggers.
+
+## ⚙️ How It Works
+
+- You define a user profile with:
+  - Dietary restrictions
+  - Cuisine preferences
+  - Ingredients available
+- The system sends this data to GPT to generate a formatted recipe post in **HTML**.
+- Output includes title, description, ingredient list, and 6-step instructions.
+
+## 💻 Example User Profile
+
+```python
+user_profile = {
+    "dietary_restrictions": "vegetarian, no dairy",
+    "cuisine_preferences": "Mediterranean, Thai",
+    "ingredients_available": "chickpeas, bell peppers, garlic, lemon, olive oil"
+}
+
+
 # OpenAI-Python-API-Recipe-Blog
 Codecademy
 # Clone the repo
